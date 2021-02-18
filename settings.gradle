@@ -1,0 +1,2 @@
+include ':app', ':nativetemplates', ':NativeTemplatesAndroid-1.0.0'
+rootProject.name='Finale'

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_top_dialog">22.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="height_process_bar">30.0sp</dimen>
+    <dimen name="text_size_subhead">15.0sp</dimen>
+    <dimen name="text_size_title">18.0sp</dimen>
+
+
+</resources>

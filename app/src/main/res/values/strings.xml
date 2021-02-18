@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VoiceChanger</string>
+    <string name="info_loading">Please wait...</string>
+    <string name="title_enter_name">Enter Name</string>
+    <string name="title_ok">OK</string>
+    <string name="title_skip">Skip</string>
+    <string name="title_tone_of_voice">Voice Changer</string>
+    <string name="info_save_voice">Your voice path is %1$s</string>
+    <string name="info_your_name_error">Your name can only contain the alphabet or number characters</string>
+    <string name="aar_paused">Paused</string>
+    <string name="aar_recording">Recording</string>
+    <string name="aar_playing">Playing</string>
+
+</resources>

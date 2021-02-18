@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.saantiaguilera.securekeys:core:1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7d88146740c7678bdc8d4576ea5010f/jetified-core-1.0.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c0e3ff210c5eb3ffd3b12e59a720b005/jetified-core-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7d88146740c7678bdc8d4576ea5010f/jetified-core-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7d88146740c7678bdc8d4576ea5010f/jetified-core-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c0e3ff210c5eb3ffd3b12e59a720b005/jetified-core-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c0e3ff210c5eb3ffd3b12e59a720b005/jetified-core-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c0e3ff210c5eb3ffd3b12e59a720b005/jetified-core-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.saantiaguilera.securekeys/core/1.0.0/caa2774ed0acbab5fddb1e44fd98896769603507/core-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

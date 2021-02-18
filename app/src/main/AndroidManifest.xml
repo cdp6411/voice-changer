@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="voicechanger.audioeffects.voiceeditor.supervoiceeffect">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".adclass.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+        android:name="androidx.core.content.FileProvider"
+        android:authorities="voicechanger.audioeffects.voiceeditor.supervoiceeffect.provider"
+        android:exported="false"
+        android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/provider_paths" />
+    </provider>
+
+
+        <activity
+            android:name=".activity.spleshscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.NoActionBar" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+        </activity>
+
+        <activity
+            android:name="voicechanger.audioeffects.voiceeditor.supervoiceeffect.androidaudiorecorder.AudioRecorderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/audio" />
+
+        <activity
+            android:name="voicechanger.audioeffects.voiceeditor.supervoiceeffect.activity.EffectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="voicechanger.audioeffects.voiceeditor.supervoiceeffect.activity.ScanActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="voicechanger.audioeffects.voiceeditor.supervoiceeffect.activity.MyStudioActivity"
+            android:theme="@style/AppTheme" />
+
+
+    </application>
+
+</manifest>
